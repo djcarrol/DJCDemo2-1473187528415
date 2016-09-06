@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: DJCDemo2
+  host: DJCDemo2
+  disk_quota: 1024M
+  services:
+  - DJCDemo2-personality_insights
